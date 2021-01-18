@@ -675,6 +675,18 @@ a.nav__link {
 	.modal__content {
 		padding: 25px;
 	}
+	.card__item:first-child {
+		padding: 0px 20px 20px 20px;
+	}
+	.card__item:nth-child(2) {
+		padding: 0px 20px 20px 20px;
+	}
+	.card__item:nth-child(3) {
+		padding: 0px 20px 20px 20px;
+	}
+	.card__item:last-child {
+		padding: 0px 20px 0px 20px;
+	}
 }
 
 @media screen and (max-width: 360px) {
